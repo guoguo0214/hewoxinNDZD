@@ -1,0 +1,620 @@
+html {
+    font-size: 100vw / 7.2;
+}
+
+body {
+    font-size: 0.2rem;
+    opacity: 0;
+}
+
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:  url(../img/bg.jpg) center bottom no-repeat / 100%;
+    overflow: hidden;
+    .mount{
+        width: 100%;
+        bottom: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .one{
+        width: 100%;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+    }
+    .three{
+        width: 100%;
+        bottom: 3rem;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+
+    }
+
+    .title {
+        position: absolute;
+        width: 7.2rem;
+        height: 4.65rem;
+        background-image: url(../img/top.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .cont {
+            position: absolute;
+            top: 1rem;
+            left: 50%;
+            width: 4.8rem;
+            transform: translate(-50%);
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+
+            .textTitle {
+                font-size: 0.3rem;
+                letter-spacing: 0.02rem;
+                span{
+                    font-size: 0.7rem;
+                    font-weight: bold;
+                }
+            }
+
+            .textCenter {
+                font-size: 0.45rem;
+                font-weight: bolder;
+                margin: 0.35rem 0;
+            }
+        }
+    }
+
+    .star {
+        font-size: 0.25rem;
+        position: absolute;
+        left: 50%;
+        bottom: 3.5rem;
+        transform: translate(-50%);
+        line-height: 0.35rem;
+        color: #1f9897;
+        font-weight: bolder;
+        letter-spacing: 0.03rem;
+        z-index: 40;
+
+        .upimg {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 0.2rem;
+            img {
+                margin-top: 0.1rem;
+                position: static;
+                width: 0.64rem;
+                height: 0.33rem;
+                opacity: 0;
+            }
+        }
+    }
+
+    img {
+        position: absolute;
+    }
+
+    .animal {
+        z-index: 31;
+        position: absolute;
+        width: 0.7rem;
+        height: 1rem;
+        /* background-image: url(../img/animal/gz1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; */
+        left: 45%;
+        bottom: 0.2rem;
+        /* left: 2.1rem;
+        bottom: 1rem; */
+        transform: translate(-50%);
+    }
+
+    .aaa {
+        display: none;
+        z-index: 31;
+        position: absolute;
+        width: 0.7rem;
+        height: 1rem;
+        background-image: url(../img/animal/gz1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        left: 3.6rem;
+        bottom: 2.9rem;
+        transform: translate(-50%);
+    }
+
+    .z01 {
+        width: 1.99rem;
+        height: 0.59rem;
+        left: 48%;
+        bottom: 0;
+        transform: translate(-50%);
+        z-index: 30;
+    }
+
+    .z02 {
+        width: 1rem;
+        height: 4.04rem;
+        bottom:-4.04rem;
+        //bottom: -3.189rem;
+        left: 2.48rem;
+        z-index: 29;
+    }
+
+    .z03 {
+        width: 1rem;
+        height: 4.04rem;
+        bottom: -4.04rem;
+        //bottom: -2.92rem;
+        left: 2rem; //2.13
+        z-index: 28;
+    }
+
+    .z04 {
+        width: 2rem;
+        height: 5.34rem;
+        z-index: 27;
+        left: 1.52rem;
+        bottom: -5.34rem;
+        //bottom: -3.37rem;
+    }
+
+    .z05 {
+        width: 1.76rem;
+        height: 3.02rem;
+        z-index: 26;
+        left: 1.33rem; //1.46
+        bottom: -3.02rem;
+        //bottom: -0.37rem;
+    }
+
+    .z06 {
+        width: 1.76rem;
+        height: 3.02rem;
+        z-index: 25;
+        left: 0.1rem; //0.22
+        bottom: -3.02rem;
+        //bottom: 0.332rem;
+    }
+
+    .z07 {
+        width: 1rem;
+        height: 4.21rem;
+        z-index: 24;
+        left: 1rem;
+        bottom: -4.21rem;
+        //bottom: -0.21rem;
+    }
+
+    .z08 {
+        position: absolute;
+        width: 1rem;
+        height: 3.75rem;
+        z-index: 23;
+        left: 1.5rem;
+        bottom: -3.79rem;
+        //bottom: 0.54rem;
+        background-image: url(../img/z09-z15-z30-x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .z09 {
+        width: 1.26rem;
+        height: 3.45rem;
+        z-index: 22;
+        left: 1.0rem;
+        //bottom: 1.288rem;
+        bottom: -3.45rem;
+    }
+
+    .z10 {
+        width: 1.26rem;
+        height: 3.45rem;
+        z-index: 21;
+        left: 1.733rem;
+        //bottom: 1.71rem;
+        bottom: -3.45rem;
+    }
+
+    .z11 {
+        width: 1.26rem;
+        height: 3.45rem;
+        z-index: 20;
+        left: 2.46rem;
+        //bottom: 2.13rem;
+        bottom: -3.45rem;
+    }
+
+    .z12 {
+        width: 1.26rem;
+        height: 3.45rem;
+        z-index: 19;
+        left: 3.19rem;
+        //bottom: 2.55rem;
+        bottom: -3.45rem;
+    }
+
+    .z13 {
+        position: absolute;
+        background-image: url(../img/z09-z15-z30-x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 1rem;
+        height: 3.75rem;
+        z-index: 18;
+        left: 3.93rem;
+        //bottom: 2.54rem;
+        bottom: -4.5rem;
+    }
+
+    .z14 {
+        width: 1rem;
+        height: 1.45rem;
+        z-index: 19;
+        left: 4.43rem;
+        bottom: -1.45rem;
+        //bottom: 4.54rem;
+    }
+
+    .z15 {
+        width: 2rem;
+        height: 5.34rem;
+        z-index: 20;
+        left: 3.93rem;
+        bottom: -5.34rem;
+        //bottom: -0.23rem;
+    }
+
+    .z16 {
+        width: 1rem;
+        height: 4.04rem;
+        z-index: 21;
+        left: 4.41rem;
+        bottom: -4.04rem;
+        //bottom: 0.23rem;
+    }
+
+    .z17 {
+        width: 1rem;
+        height: 4.04rem;
+        z-index: 22;
+        left: 4.89rem;
+        //bottom: -0.04rem;
+        bottom: -4.04rem;
+    }
+
+    .z18 {
+        position: absolute;
+        width: 1rem;
+        height: 3.75rem;
+        z-index: 23;
+        left: 5.35rem;
+        //bottom: -0.05rem;
+        bottom: -3.75rem;
+        background-image: url(../img/z09-z15-z30-x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .z19 {
+        width: 0.76rem;
+        height: 0.8rem;
+        z-index: 24;
+        left: 5.12rem;
+        //bottom: 2.64rem;
+        bottom: -0.8rem;
+    }
+
+    .z20 {
+        width: 1.26rem;
+        height: 3.45rem;
+        z-index: 25;
+        left: 4.36rem;
+        //bottom: -0.44rem;
+        bottom: -3.45rem;
+    }
+
+    .z21 {
+        width: 1.26rem;
+        height: 3.02rem;
+        z-index: 26;
+        left: 3.63rem;
+        //bottom: 0.01rem;
+        bottom: -3.02rem;
+    }
+
+    .z22 {
+        position: absolute;
+        width: 1rem;
+        height: 5.27rem;
+        z-index: 25;
+        left: 3.13rem;
+        //bottom: -1.95rem;
+        background-image: url(../img/z12.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        bottom: -5.27rem;
+    }
+
+    .mtl {
+        width: 1.63rem;
+        height: 4.61rem;
+        z-index: 21;
+        left: 2.24rem;
+        //bottom: 0.6rem;
+        bottom: -4.61rem;
+    }
+
+    .phone {
+        position: absolute;
+        width: 1rem;
+        height: 3.46rem;
+        z-index: 5;
+        left: 0.5rem;
+        bottom: -4.5rem;
+        //bottom: 1.7rem;
+        background-image: url(../img/z21-z33.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: -0.6rem;
+            left: 50%;
+            transform: translate(-50%);
+            width: 0.68rem;
+            height: 0.66rem;
+            background-image: url(../img/z20.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: 30;
+            animation: move linear 2s infinite;
+        }
+    }
+
+    .gl {
+        position: absolute;
+        width: 2.5rem;
+        height: 5.71rem;
+        z-index: 4;
+        left: 0.9rem;
+        //bottom: 2rem;
+        bottom: -5.71rem;
+    }
+
+    .wifi {
+        position: absolute;
+        width: 1rem;
+        height: 3.46rem;
+        z-index: 5;
+        left: 4.44rem;
+        bottom: -4.5rem;
+        //bottom: 3.4rem;
+        background-image: url(../img/z21-z33.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: -0.6rem;
+            left: 50%;
+            transform: translate(-50%);
+            width: 0.83rem;
+            height: 0.73rem;
+            background-image: url(../img/z32.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: 30;
+            animation: move linear 2s infinite;
+        }
+    }
+
+    .gold {
+        position: absolute;
+        width: 1.26rem;
+        height: 4.21rem;
+        z-index: 22;
+        left: 5.85rem;
+        bottom: -6rem;
+        //bottom: 0.05rem;
+        background-image: url(../img/z17.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: -0.6rem;
+            left: 43%;
+            transform: translate(-50%);
+            width: 0.6rem;
+            height: 0.84rem;
+            background-image: url(../img/z16.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index: 30;
+            animation: move linear 2s infinite;
+        }
+    }
+
+    .dx {
+        width: 1.5rem;
+        height: 6.34rem;
+        position: absolute;
+        z-index: 18;
+        left: 5.58rem;
+        //bottom: 1.25rem;
+        bottom: -6.34rem;
+    }
+
+    .yh {
+        position: absolute;
+        left: 50%;
+        top: 0.28rem;
+        transform: translate(-50%);
+        z-index: 30;
+
+        .yy {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0rem;
+            height: 0rem;
+            border-style: solid;
+            border-color: white;
+            border-width: 0.08rem;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            animation: scale 2s linear infinite;
+        }
+    }
+    .hx{
+        display: none;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%) scale(0.3);
+        width: 2.1rem;
+        height: 2.08rem;
+        background-image: url(../img/star_box1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        //animation: updown2 3s linear infinite;
+    }
+    .sx{
+        position: absolute;
+        top: 45%;
+        left: -20%;
+        transform: translate(-50%);
+        width: 1.82rem;
+        height: 1.82rem;
+        background-image: url(../img/star_box3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        //animation: updown 3s linear infinite;
+        //animation: left 2s linear  forwards;
+    }
+    .jx{
+        position: absolute;
+        top: 45%;
+        right: -40%;
+        transform: translate(-50%);
+        width: 1.65rem;
+        height: 1.64rem;
+        background-image: url(../img/star_box2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        //animation: updown 2s linear 1s infinite;
+        //animation: right 2s linear forwards;
+    }
+    .gz{
+        position: absolute;
+        top: -0.3rem;
+        left: 50%;
+        transform: translate(-50%);
+        width: 0.7rem;
+        height: 1rem;
+        background-image: url(../img/animal/gz21.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .dp {
+        display: none;
+        //bottom: -10rem;
+    }
+}
+
+@keyframes move {
+    0% {
+        top: -0.6rem;
+    }
+
+    50% {
+        top: -0.4rem;
+    }
+
+    100% {
+        top: -0.6rem;
+    }
+}
+
+@keyframes updown{
+    0%{}
+    50%{top: 47%;}
+    100%{top: 45%;}
+}
+
+@keyframes left{
+    0%{}
+    100%{left: 20%;transform: translate(-50%) rotate(360deg);}
+}
+
+@keyframes right{
+    0%{}
+    100%{right: 0%;transform: translate(-50%) rotate(-360deg);}
+}
+
+@keyframes center{
+    0%{}
+    100%{transform: translate(-50%) scale(1);}
+}
+
+@keyframes updown2{
+    0%{}
+    50%{top: 31%;}
+    100%{top: 30%;}
+}
+
+@keyframes scale {
+    0% {}
+
+    50% {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-width: 0.05rem;
+    }
+
+    100% {
+        width: 0rem;
+        height: 0rem;
+        border-width: 0.08rem;
+    }
+}
